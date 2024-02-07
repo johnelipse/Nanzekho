@@ -52,6 +52,7 @@ body {
   padding: 1rem 2rem;
   position: sticky;
   align-items: center;
+  z-index: 2000;
   top: 0;
   height: 20vh;
   width: 100%;
@@ -61,6 +62,21 @@ body {
 .section-introduction i {
   font-size: 2rem;
   display: none;
+}
+.button a{
+  text-decoration: none;
+  background-color: #ff5c00;
+  color: aliceblue;
+  padding: 1rem 3rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem; 
+}
+.button{
+  padding-top: 3rem;
+}
+.button a:hover{
+  background-color: #393939;
+  border: #ff5c00 solid 1.5px; 
 }
 .right-side {
   display: flex;
@@ -197,7 +213,61 @@ body {
   gap: 4rem;
   padding: 2rem;
 }
+.screen-image img{
+  width: 30rem;
+  }
+  .description{
+    padding-top: 3rem;
+  }
+.screen-image{
+    position: relative;
+    padding-top: 3rem;
+  }
+  .courses h3{
+    padding: 1rem;
+    color: white;
+      }
+  .Connections{
+    color: white;
+  }
+  .courses .Cyber{
+color: #b8b0b1;
+padding: 0.5rem;
+  }
+  .course p{
+    color: white;
+  }
+.screen-video{
+  position: absolute;
+  top: 15%;
+  left: 2%;
+}
+.application-courses{
+  display: flex;
+  gap: 3rem;
+  padding: 3rem;
+}
+.application-courses .course{
+  padding-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+.application-courses{
+  background: linear-gradient(#1b1b1b,#1b1b1b);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+
 @media (max-width: 902px) {
+  
   .section-introduction i {
     font-size: 2rem;
     display: block;
@@ -275,7 +345,7 @@ body {
   }
 }
 @media(max-width:368px){
-  .services-provided h3 {
+     .services-provided h3 {
     font-size: 20px;
   }
   .services-provided p {
