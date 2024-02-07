@@ -67,7 +67,7 @@ body {
   gap: 0.5rem;
 }
 .home {
-  padding: 0 0.5rem;
+  padding: 0.2rem 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,13 +77,13 @@ body {
 }
 .services {
   background-color: white;
-  padding: 0 0.5rem;
+  padding: 0.2rem 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .services:hover {
-  padding: 0 0.5rem;
+  padding: 0.2rem 0.5rem;
   background-color: #ff5c00;
   border-top-left-radius: 1.4rem;
   border-bottom-right-radius: 1.4rem;
