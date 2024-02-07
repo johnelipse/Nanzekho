@@ -51,11 +51,16 @@ body {
   justify-content: space-between;
   padding: 1rem 2rem;
   position: sticky;
+  align-items: center;
   top: 0;
   height: 20vh;
   width: 100%;
   background-color: white;
   height: 20vh;
+}
+.section-introduction i {
+  font-size: 2rem;
+  display: none;
 }
 .right-side {
   display: flex;
@@ -124,7 +129,7 @@ body {
   color: white;
   font-size: 2rem;
 }
-.about-us{
+.about-us {
   display: flex;
   justify-content: space-between;
   padding: 3rem;
@@ -138,7 +143,7 @@ body {
 .about h3 {
   padding: 0 1rem;
 }
-.about a{
+.about a {
   text-decoration: none;
   background-color: #ff5c00;
   color: aliceblue;
@@ -146,7 +151,84 @@ body {
   border-top-left-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
 }
-.about a:hover{
+.about a:hover {
   background-color: #393939;
   border: #ff5c00 solid 1.5px;
+}
+
+.phone {
+  display: none;
+}
+
+@media (max-width: 902px) {
+  .section-introduction i {
+    font-size: 2rem;
+    display: block;
+  }
+  .services-provided {
+      padding: 2rem;
+        }
+  .right-side {
+    display: flex;
+    gap: 0.5rem;
+    display: none;
+  }
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .video-about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 686px) {
+  .services-provided h3 {
+    font-size: 40px;
+  }
+  .services-provided p {
+    font-size: 20px;
+  }
+  .services-provided {
+    padding: 1rem;
+  }
+  .video-about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media(max-width:484px){
+  .services-provided h3 {
+    font-size: 30px;
+  }
+  .services-provided p {
+    font-size: 20px;
+  }
+  .services-provided {
+    padding: 1rem;
+  }
+  .video-about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media(max-width:368px){
+  .services-provided h3 {
+    font-size: 20px;
+  }
+  .services-provided p {
+    font-size: 15px;
+  }
+  .services-provided {
+    padding: 1rem;
+  }
+  .video-about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
 }
