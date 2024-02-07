@@ -145,11 +145,14 @@ body {
 }
 .about a {
   text-decoration: none;
-  background-color: #ff5c00;
+   background-color: #ff5c00;
   color: aliceblue;
   padding: 1rem 3rem;
   border-top-left-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
+}
+.about .btn{
+  padding: 1rem;
 }
 .about a:hover {
   background-color: #393939;
