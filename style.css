@@ -367,7 +367,18 @@ padding: 0.2rem;
 }
 .pictures img{
   width: 100px;
-} 
+}
+.get-in-touch p{
+font-size: 1.3rem;
+padding: 0.7rem 3rem;
+color: #b8b0b1;
+}
+.get-in-touch h3{
+  font-size: 2.5rem;
+}
+.get-in-touch{
+  text-align: center;
+}
 
 
 
@@ -537,6 +548,14 @@ padding: 0.2rem;
   }
 }
 @media (max-width: 484px) {
+  .get-in-touch h3{
+    font-size: 1.5rem;
+  }
+  .get-in-touch p{
+    font-size: 0.9rem;
+    padding: 0.7rem 3rem;
+    color: #b8b0b1;
+    }
   .our-services p {
     font-size: 0.7rem;
   }
