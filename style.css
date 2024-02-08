@@ -379,6 +379,43 @@ color: #b8b0b1;
 .get-in-touch{
   text-align: center;
 }
+.form{
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  }
+.sign-up-form{
+  background-color: #f2f3f5;
+  width: 60%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.btn-details{
+ padding-bottom: 7rem;
+}
+input{
+  padding: 0.5rem;
+  width: 98%;
+  outline: none;
+  border: none;
+}
+.submit{
+  width: 30%;
+  border: none;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #ff5c00;
+  color: aliceblue;
+  padding: 1rem 3rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem; 
+}
+.submit:hover{
+  background-color: #393939;
+  border: #ff5c00 solid 1.5px;
+}
 
 
 
@@ -391,6 +428,18 @@ color: #b8b0b1;
 
 
 @media (max-width: 902px) {
+  .get-in-touch h3{
+    font-size: 2.2rem;
+  }
+  .get-in-touch p{
+    font-size: 1rem;
+    padding: 0.7rem 3rem;
+    color: #b8b0b1;
+    }
+   
+  .submit{
+     padding: 0.5rem 1rem;
+    }
   .links{
     display: flex;
     padding: 0 2rem;
@@ -547,7 +596,19 @@ color: #b8b0b1;
     align-items: center;
   }
 }
-@media (max-width: 484px) {
+@media (max-width: 647px) {
+  .submit{
+    width: 50%;
+       font-size: 16px;
+       padding: 0.2rem 0.5rem;
+    }
+  .sign-up-form{
+    width: 98%;
+      }
+     input{
+     padding: 0.5rem;
+     width: 100%;
+   }
   .get-in-touch h3{
     font-size: 1.5rem;
   }
@@ -591,7 +652,19 @@ color: #b8b0b1;
     align-items: center;
   }
 }
-@media (max-width: 368px) {
+@media (max-width: 378px) {
+  .submit{
+    width: 50%;
+       font-size: 16px;
+       padding: 0.2rem 0.5rem;
+    }
+  .sign-up-form{
+    width: 98%;
+      }
+     input{
+     padding: 0.5rem;
+     width: 100%;
+   }
   .our-services p {
     font-size: 0.7rem;
   }
