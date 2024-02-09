@@ -83,7 +83,7 @@ body {
   gap: 0.5rem;
 }
 .home {
-  padding: 0.2rem 0.5rem;
+  padding: 0.5rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +93,7 @@ body {
 }
 .services {
   background-color: white;
-  padding: 0.2rem 0.5rem;
+  padding: 0.5rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +117,7 @@ body {
   background-position: center;
 }
 .services-provided h3 {
-  font-size: 55px;
+  font-size: 3rem;
   color: aliceblue;
 }
 .services-provided span {
@@ -141,11 +141,13 @@ body {
   background-color: #393939;
   border: #ff5c00 solid 1.5px;
 }
+
 .index-300 {
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .about-us {
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   padding: 3rem;
@@ -209,7 +211,7 @@ body {
 }
 .motivation {
   display: flex;
-  /* justify-content: space-between; */
+  height: 100vh;
   gap: 4rem;
   padding: 2rem;
 }
@@ -256,16 +258,16 @@ body {
   flex-wrap: wrap;
 }
 .application-courses {
-  min-height: 80vh;
+  min-height: 100vh;
   background: linear-gradient(#1b1b1b, #1b1b1b);
   background-size: cover;
   background-position: center;
 }
 .our-services p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .our-services h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .our-services {
   text-align: center;
@@ -282,7 +284,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 35px;
-  background-color: red;
+  background-color: #ff5c00;
   width: 70%;
 }
 
@@ -312,7 +314,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 35px;
-  background-color: red;
+  background-color: #ff5c00;
   width: 70%;
 }
 .core-services p {
@@ -456,7 +458,7 @@ input {
 }
 
 @media (max-width: 902px) {
-  .middle{
+  .middle {
     display: none;
   }
   .location {
@@ -607,6 +609,14 @@ input {
   }
 }
 @media (max-width: 686px) {
+  .pictures img{
+    width: 75%;
+  }
+  .gallary .pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .about a {
     padding: 1rem 2rem;
     border-top-left-radius: 1rem;
@@ -706,6 +716,16 @@ input {
   }
 }
 @media (max-width: 378px) {
+  .screen-video {
+    position: absolute;
+    top: 17%;
+    left: 2%;
+  }
+  .screen-image iframe {
+    width: 47vw;
+    height: 25vh;
+    margin: 0 auto;
+  }
   .footer {
     font-size: 12px;
     padding: 2rem;
