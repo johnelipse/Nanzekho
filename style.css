@@ -301,7 +301,7 @@ body {
 }
 .phone-image {
   width: 20rem;
- 
+
   object-fit: contain;
 }
 .icons {
@@ -315,13 +315,13 @@ body {
   background-color: red;
   width: 70%;
 }
-.core-services p{
-color: #b8b0b1;
-padding: 0.2rem;
+.core-services p {
+  color: #b8b0b1;
+  padding: 0.2rem;
 }
-.core-services h3{
+.core-services h3 {
   color: white;
-  padding:0.2rem 1rem;
+  padding: 0.2rem 1rem;
 }
 .core-services {
   display: flex;
@@ -331,60 +331,60 @@ padding: 0.2rem;
   padding: 2rem;
   width: 100%;
 }
-.links{
+.links {
   margin-top: 2rem;
 }
-.portifolio p{
+.portifolio p {
   font-size: 19px;
   color: #393939;
   padding: 0.5rem 3rem;
 }
-.portifolio h3{
+.portifolio h3 {
   font-size: 35px;
   padding: 0.5rem 3rem;
 }
-.portifolio{
+.portifolio {
   text-align: center;
   padding: 2rem;
 }
-.all{
- color: aliceblue;
+.all {
+  color: aliceblue;
   background-color: #ff5e00c5;
 }
-.links a{
+.links a {
   text-decoration: none;
   border: #ff5c00 solid 2.5px;
   color: black;
   padding: 0.5rem 2rem;
   border-top-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem; 
+  border-bottom-right-radius: 1.5rem;
 }
-.gallary{
+.gallary {
   padding: 3rem 2rem;
   display: grid;
   gap: 2rem;
   grid-template-columns: minmax(300px auto);
 }
-.pictures img{
+.pictures img {
   width: 100px;
 }
-.get-in-touch p{
-font-size: 1.3rem;
-padding: 0.7rem 3rem;
-color: #b8b0b1;
+.get-in-touch p {
+  font-size: 1.3rem;
+  padding: 0.7rem 3rem;
+  color: #b8b0b1;
 }
-.get-in-touch h3{
+.get-in-touch h3 {
   font-size: 2.5rem;
 }
-.get-in-touch{
+.get-in-touch {
   text-align: center;
 }
-.form{
+.form {
   display: flex;
   justify-content: center;
   padding: 4rem;
-  }
-.sign-up-form{
+}
+.sign-up-form {
   background-color: #f2f3f5;
   width: 60%;
   padding: 3rem;
@@ -392,16 +392,16 @@ color: #b8b0b1;
   flex-direction: column;
   gap: 2rem;
 }
-.btn-details{
- padding-bottom: 7rem;
+.btn-details {
+  padding-bottom: 7rem;
 }
-input{
+input {
   padding: 0.5rem;
   width: 98%;
   outline: none;
   border: none;
 }
-.submit{
+.submit {
   width: 30%;
   border: none;
   font-size: 16px;
@@ -410,69 +410,105 @@ input{
   color: aliceblue;
   padding: 1rem 3rem;
   border-top-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem; 
+  border-bottom-right-radius: 1.5rem;
 }
-.submit:hover{
+.submit:hover {
   background-color: #393939;
   border: #ff5c00 solid 1.5px;
 }
-
-
-
-
-
-
-
-
-
-
+.contact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+.location p {
+  color: #b8b0b1;
+}
+.location h3 {
+  color: #ff5c00;
+}
+.location .bx {
+  font-size: 2rem;
+}
+.location {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #ffffff;
+  width: 25%;
+  padding: 1rem;
+}
+.footer h4 {
+  font-weight: normal;
+  color: #706869;
+}
+.footer a:hover {
+  color: #ff5c00;
+}
+.footer a {
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+}
+.footer {
+  background-color: #1f1f1f;
+  padding: 3.5rem;
+  text-align: center;
+}
 
 @media (max-width: 902px) {
-  .get-in-touch h3{
+  .middle{
+    display: none;
+  }
+  .location {
+    width: 35%;
+    padding: 1rem;
+  }
+
+  .get-in-touch h3 {
     font-size: 2.2rem;
   }
-  .get-in-touch p{
+  .get-in-touch p {
     font-size: 1rem;
     padding: 0.7rem 3rem;
     color: #b8b0b1;
-    }
-   
-  .submit{
-     padding: 0.5rem 1rem;
-    }
-  .links{
+  }
+
+  .submit {
+    padding: 0.5rem 1rem;
+  }
+  .links {
     display: flex;
     padding: 0 2rem;
     flex-direction: column;
     gap: 12px;
     flex: wrap;
   }
-  .portifolio p{
+  .portifolio p {
     font-size: 15px;
     color: #393939;
     padding: 0.5rem 3rem;
   }
-  .portifolio h3{
+  .portifolio h3 {
     font-size: 30px;
     padding: 0.5rem 3rem;
   }
-  .portifolio{
+  .portifolio {
     text-align: center;
     padding: 1rem;
   }
-  .all{
-   color: aliceblue;
+  .all {
+    color: aliceblue;
     background-color: #ff5e00c5;
   }
-  .links a{
+  .links a {
     text-decoration: none;
     border: #ff5c00 solid 2.5px;
     color: black;
     padding: 0.5rem 1rem;
     border-top-left-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem; 
+    border-bottom-right-radius: 1.5rem;
   }
-  
+
   .icons {
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 3rem;
@@ -576,6 +612,13 @@ input{
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
   }
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.4rem 1rem;
+    background-color: #393939;
+  }
   .services-provided h3 {
     font-size: 40px;
   }
@@ -597,26 +640,36 @@ input{
   }
 }
 @media (max-width: 647px) {
-  .submit{
+  .location {
+    width: 90%;
+    padding: 1rem;
+  }
+  .contact-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .submit {
     width: 50%;
-       font-size: 16px;
-       padding: 0.2rem 0.5rem;
-    }
-  .sign-up-form{
+    font-size: 16px;
+    padding: 0.2rem 0.5rem;
+  }
+  .sign-up-form {
     width: 98%;
-      }
-     input{
-     padding: 0.5rem;
-     width: 100%;
-   }
-  .get-in-touch h3{
+  }
+  input {
+    padding: 0.5rem;
+    width: 100%;
+  }
+  .get-in-touch h3 {
     font-size: 1.5rem;
   }
-  .get-in-touch p{
+  .get-in-touch p {
     font-size: 0.9rem;
     padding: 0.7rem 3rem;
     color: #b8b0b1;
-    }
+  }
   .our-services p {
     font-size: 0.7rem;
   }
@@ -653,18 +706,32 @@ input{
   }
 }
 @media (max-width: 378px) {
-  .submit{
+  .footer {
+    font-size: 12px;
+    padding: 2rem;
+  }
+  .location {
+    width: 90%;
+    padding: 1rem;
+  }
+  .contact-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .submit {
     width: 50%;
-       font-size: 16px;
-       padding: 0.2rem 0.5rem;
-    }
-  .sign-up-form{
+    font-size: 16px;
+    padding: 0.2rem 0.5rem;
+  }
+  .sign-up-form {
     width: 98%;
-      }
-     input{
-     padding: 0.5rem;
-     width: 100%;
-   }
+  }
+  input {
+    padding: 0.5rem;
+    width: 100%;
+  }
   .our-services p {
     font-size: 0.7rem;
   }
